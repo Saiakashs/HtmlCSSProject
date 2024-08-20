@@ -1,0 +1,110 @@
+table,tr,th,td,caption{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0.5rem;
+}
+body{
+    background-color:hsl(48, 89%, 50%) ;
+    
+}
+.outercontainer{
+    margin: 10px 100px;
+    border: 1px solid black;
+    
+    background-color: white;
+}
+header{
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    background-color:lightgray;
+}
+#tacosimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tacosimg figcaption{
+    padding: 10px;
+    text-align: center;
+}
+#secondtraytacosimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#secondtraytacosimg figcaption{
+    padding: 10px;
+    text-align: center;
+}
+#thirdtacosimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#thirdtacosimg figcaption{
+    padding: 10px;
+    text-align: center;
+}
+#aboutlts{
+    padding: 10px;
+}
+#aboutlts h2,h3{
+    color: #48dbfb;
+}
+#menu{
+    text-align: center;
+}
+#menu {
+   display: flex;
+   flex-direction: column;
+}
+#menu table{
+   margin: 10px 30px;
+   cursor: pointer;
+}
+#menu table tr td:hover{
+    color: #48dbfb;
+}
+#menu table tr th:hover{
+    color: #48dbfb;
+}
+form{
+    margin: 20px;
+}
+form p{
+    display: flex;
+    
+    align-items: center;
+}
+
+footer{
+    padding: 10px;
+}
+footer p a{
+    text-decoration: none;
+    color: #48dbfb;
+}
+footer p a:hover{
+    color: gold;
+}
